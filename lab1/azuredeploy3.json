@@ -40,6 +40,11 @@
             }
         }
     ],
-    "outputs": {}
+    "outputs": {
+        "storageAccount" : {
+            "type": "string",
+            "value": "[variables('storageAccount')]"
+        }
+    }
 }
 
