@@ -5,12 +5,12 @@
     "variables": {},
     "resources": [
         {
-            "name": "siparmstore",
+            "name": "siparmstore1",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2015-06-15",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "siparmstore"
+                "displayName": "siparmstore1"
             },
             "properties": {
                 "accountType": "Standard_LRS"
